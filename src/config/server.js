@@ -14,7 +14,7 @@ const server = {
   },
 
   endpoints: {
-    findCountry: { path: "https://api.ip2country.info/ip?161.185.160.93" }
+    findCountry: { path: `${process.env.REACT_APP_BASE_URL}/ip?161.185.160.93` }
   },
 
   _buildUrl(current) {

@@ -7,14 +7,10 @@ const {
 } = config;
 
 export const getCountryName = (ipAddress) => async dispatch => {
-    let config = {
-     
-    }
-    console.log('address', IPADDRESS.FindCountry);
+    let config = {}
     try {
-          httpService.post(IPADDRESS.FindCountry ,[], config ).then(response => {
+          httpService.post(IPADDRESS.FindCountry ,{ip:ipAddress}, config ).then(response => {
               if (response.status === 200) {
-                 
               }
               }).catch(error => {
               })

@@ -18,7 +18,7 @@ axios.interceptors.response.use(null, error => {
 });
 
 const httpService = {
-    get: IPADDRESS.get,
+    post: IPADDRESS.post,
     axios: axios
 }
 export default httpService;
