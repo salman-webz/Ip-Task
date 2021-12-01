@@ -1,0 +1,15 @@
+.submit-button {
+    background-color: #3835ff;
+    border: 2px solid #3835ff;
+    padding: 10px;
+    display: block;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+}
+input{
+    height: 40px;
+    width: 50%;
+    max-width: 400px;
+}
