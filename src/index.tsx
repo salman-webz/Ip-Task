@@ -7,7 +7,7 @@ import { createStore, applyMiddleware, compose } from "redux";
 import reducers from "./store/reducers";
 import reportWebVitals from './reportWebVitals';
 import reduxThunk from "redux-thunk";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Compose Enhancer for Redux Debugging
 // const composeEnhancers = window['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__'] as typeof    || compose;

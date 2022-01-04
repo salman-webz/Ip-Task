@@ -1,10 +1,11 @@
-import IpComponent from "./components/IpComponent"
 
+import AppRouter from "./navigation/AppRouter";
 
 function App() {
+
   return (
     <div className="App">
-          <IpComponent />
+      <AppRouter />
     </div>
   );
 }
